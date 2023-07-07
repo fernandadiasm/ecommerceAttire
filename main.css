@@ -63,6 +63,10 @@ body {
     font-family: var(--lg-font);
 }
 
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+}
+
 .carousel-item .btn {
     border-color: #fff !important;
 }
